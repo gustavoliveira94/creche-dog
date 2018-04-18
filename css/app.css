@@ -56,7 +56,7 @@ header p {
 .down {
     display: flex;
     align-self: center;
-    margin-top: 30vh;
+    margin-top: 25vh;
     text-decoration: none;
     color: #ffffff;
 }
