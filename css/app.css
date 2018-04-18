@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg-header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Prompt';
+}
+
+header nav {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color: #000000bb;
+}
+
+header nav h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+header h2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 150px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+header p {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    margin-top: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.down {
+    display: flex;
+    align-self: center;
+    margin-top: 180px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.como-funciona {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f3f3f3;
+    font-family: 'Prompt';    
+}
+
+.como-funciona h2 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.cartoes {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 0 80px 0;
+}
+
+.cartao-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Prompt';
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: linear-gradient(
+                    rgba(0, 0, 0, 0.8),
+                    rgba(0, 0, 0, 0.8)
+                ),
+                url('../img/card-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cartao-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Prompt';
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: linear-gradient(
+                    rgba(0, 0, 0, 0.8),
+                    rgba(0, 0, 0, 0.8)
+                ),
+                url('../img/card-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cartao-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Prompt';
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: linear-gradient(
+                    rgba(0, 0, 0, 0.8),
+                    rgba(0, 0, 0, 0.8)
+                ),
+                url('../img/card-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cartao-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Prompt';
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background: linear-gradient(
+                    rgba(0, 0, 0, 0.8),
+                    rgba(0, 0, 0, 0.8)
+                ),
+                url('../img/card-4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.filial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 200px;
+    background-color: #2b2b2b;
+}
+
+.filial h3 {
+    font-size: 26px;
+    font-family: 'Prompt';
+    color: #ffffff;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.filial a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5100fd;
+    text-transform: uppercase;
+    margin-top: 50px;
+    width: 280px;
+    height: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Prompt';
+    width: 100%;
+    height: 400px;
+    background-color: #1d1d1d;
+}
+
+footer .logo {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    border-right: 1px solid #2b2b2b;
+}
+
+footer .contato h3 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+footer .contato {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+footer .contato form {
+    width: 70%;
+    margin: 0 15% 0 15%;
+}
+
+footer .contato input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer .contato label {
+    color: #ffffff;
+}
+
+footer .contato .enviar {
+    width: 50%;
+    height: 50px;
+    margin: 0 25% 0 25%;
+    background-color: #ff5100fd;
+    color: #ffffff;
+}
+
+@media (max-width: 650px) {
+    footer {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    footer .logo {
+        height: 200px;
+        border-right: 0;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #2b2b2b;
+    }
+
+    footer .contato {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    footer .contato form {
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+}
+
+@media (max-width: 320px) {
+    header h2 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .down {
+        margin-top: 100px;
+    }
+}
